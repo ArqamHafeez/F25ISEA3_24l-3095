@@ -107,7 +107,8 @@ void playhangman(const string& secretword) {
     }
 
     if (guessedword == secretword)
-        cout << "🎉 congratulations! you guessed the word: " << secretword << endl;
+        cout << " congratulations! you guessed the word: " << secretword << endl;
     else
-        cout << "❌ you lost! the word was: " << secretword << endl;
+        cout << " you lost! the word was: " << secretword << endl;
 }
+
