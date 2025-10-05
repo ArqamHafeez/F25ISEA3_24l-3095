@@ -15,9 +15,9 @@ void isPalindrome(string arr) {
 
     // Compare both
     if (reversedString == originalString)
-        cout << "✅ \"" << arr << "\" is a palindrome.\n";
+        cout << "\"" << arr << "\" is a palindrome.\n";
     else
-        cout << "❌ \"" << arr << "\" is not a palindrome.\n";
+        cout << " \"" << arr << "\" is not a palindrome.\n";
 }
 
 int main() {
@@ -39,4 +39,5 @@ int main() {
     } while (true);
 
     return 0;
+
 }
